@@ -1,99 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with the Orbit space technology project.">
+  <title>Contact — Orbit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
 </head>
-
-<body bgcolor="black">
-
-    <table background="bg-home.jpg"  WIDTH="100%">
-        <td><img src="logo.png"></td>
-        <td> <a href="index.html"> <font color="white">Home </font></a></td>
-        <td> <a href="about.html"> <font color="white">ABOUT </font></a></td>
-        <td> <a href="project.html"> <font color="white">PROJECTS </font></a></td>
-        <td> <a href="blog.html"> <font color="white">BLOG </font></a></td>
-        <td bgcolor="black"  align="center"> <a href="#"> <font color="white">CONTACT </font></a></td>
-    </table>
-    <BR>
-    
-    <center>
-        <table>
-            <p>
-                <font color="white" face="Audiowide" size="10">CONTACT
-                </p>
-            </font>
-            <tr>
-                <td width="100%"><br>
-
-                    <font color="white" face="Audiowide" size="5">DO NOT HESITATE TO CONTACT US
-                </td>
-                </font>
-            </tr>
-        </table>
-        <br>
-        <table cellpadding="5">
-            <tr>
-                <form>
-                    <td><textarea name="name" placeholder="name" rows="2.5" cols="63" required></textarea></td>
-            </tr>
-
-
-            <tr>
-                <td><textarea name="email" placeholder="Email" rows="2" cols="63" required></textarea></td>
-            </tr>
-
-            <tr>
-                <td><textarea name="subject" placeholder="Subject" rows="2" cols="63" required></textarea></td>
-            </tr>
-            <tr>
-                <td>
-                    <textarea  name="message" placeholder="MESSAGE" rows="7" cols="63" required></textarea>
-                </td>
-            </tr>
-            </td>
-
-            <tr>
-                <td align="right">
-                    <button type="submit">SEND</button>
-                </td>
-            </tr>
-            </form>
-
-        </table>
-    </center>
-    <br>
-
-    <table width="100%" bgcolor="grey" cellpadding="1">
-
-        <tr align="center">
-         <td width="400" ></td>
-            <td >
-                <font color="white" face="Audiowide" size="5">FOLLOW OUR MISSION ON</font>
-            </td>
-           
-            <td><img src="f.png"></td>
-            <td><img src="p.png"></td>
-            <td><img src="g.png"></td>
-            <td><img src="icons.png"></td>
-            <td width="500"></td>
-        </tr>
-
-    </table>
-    <table width="100%" bgcolor="white" cellpadding="5">
-        <tr align="center">
-            <td>
-                <font color="black" size="2">© 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</font>
-            </td>
-        </tr>
-    </table>
-
-</body>
-
-
-</html>
-
-
-
+<body>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html" aria-label="Orbit home"><img src="logo.png" alt="Orbit space logo"><span>ORBIT<span class="brand-dot">.</span></span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="project.html">Missions</a><a href="blog.html">Journal</a><a class="nav-cta active" href="Contact.html">Contact <span aria-hidden="true">↗</span></a></nav></div></header>
+<main>
+  <section class="page-hero contact-hero"><div class="container page-hero-content"><p class="eyebrow fade-in"><span class="eyebrow-line"></span> OPEN CHANNEL</p><h1 class="fade-in delay-1">Let's talk<br><span class="text-gradient">space.</span></h1><p class="hero-copy fade-in delay-2">Have a question, a suggestion or a favorite mission? Send a message.</p></div></section>
+  <section class="section contact-section"><div class="container contact-layout"><div class="contact-aside"><p class="eyebrow">TRANSMISSION CENTER</p><h2>We'd love to<br>hear from <span class="text-gradient">you.</span></h2><p>This is a static website demo. The contact form below opens your email app so you can send us a message.</p><div class="contact-coordinate"><span class="status-dot"></span> SIGNAL OPEN <span>·</span> EARTH, SOL</div><div class="contact-decoration" aria-hidden="true">✳</div></div>
+    <form class="contact-form" action="mailto:hello@example.com" method="post" enctype="text/plain"><div class="form-row"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Alex Astronaut" autocomplete="name" required></div><div class="form-row"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div><div class="form-row"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What's on your mind?" required></div><div class="form-row"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea></div><button class="button button-primary" type="submit">Send transmission <span aria-hidden="true">↗</span></button><p class="form-note">Your email program will open to send this message. No information is stored on this website.</p></form>
+  </div></section>
+</main>
+<footer class="site-footer"><div class="container footer-top"><a class="brand" href="index.html"><img src="logo.png" alt=""><span>ORBIT<span class="brand-dot">.</span></span></a><p>Curiosity has no final destination.</p><nav aria-label="Footer navigation"><a href="about.html">About</a><a href="project.html">Missions</a><a href="blog.html">Journal</a><a href="Contact.html">Contact</a></nav></div><div class="container footer-bottom"><span>© 2026 Orbit — Space Technology</span><a href="index.html">Back to home ↑</a></div></footer>
+</body></html>

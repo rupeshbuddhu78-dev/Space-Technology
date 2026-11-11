@@ -1,25 +1,38 @@
-# Space Technology Website
+# Orbit — Space Technology
 
-A static, multi-page website introducing space exploration and technology. The site is built with HTML and uses local image assets; it does not require a build step or JavaScript runtime.
+A responsive, multi-page space exploration website built with semantic HTML and CSS. Explore missions, space technology and cosmic discoveries through a polished, animated interface.
 
 ## Pages
 
-- `index.html` — home page with a featured spacecraft, projects, mission statement, and latest blog posts.
-- `about.html` — information and template-style content about the site.
-- `project.html` — featured projects, including the Mars Curiosity Rover and International Space Station.
-- `blog.html` — sample space-related blog posts.
-- `Contact.html` — contact form layout.
+- **Home (`index.html`)** — mission-inspired hero, featured imagery and space stories.
+- **About (`about.html`)** — project background and guiding principles.
+- **Missions (`project.html`)** — Curiosity rover, International Space Station and lunar exploration.
+- **Journal (`blog.html`)** — editorial-style stories about exploration and technology.
+- **Contact (`Contact.html`)** — contact form layout that uses the visitor's email application.
+
+## Features
+
+- Responsive layouts for desktop, tablet and mobile.
+- CSS-only motion effects, animated star field, hover details and entrance transitions.
+- Reduced-motion support for visitors who prefer fewer animations.
+- Semantic page structure, accessible navigation labels and descriptive image text.
+- Local image assets and no build step or JavaScript framework required.
 
 ## Run locally
 
-1. Download or clone this repository.
-2. Open `index.html` in a web browser.
+1. Clone or download this repository.
+2. Keep `styles.css`, the HTML files and image assets together in the project root.
+3. Open `index.html` in a browser. For local server preview, run `python -m http.server 8000` from the project directory and visit `http://localhost:8000`.
 
-Keep the image files in the repository root alongside the HTML files so the pages can load their images correctly. The site can also be hosted as a static website, for example with GitHub Pages.
+The site can also be published as a static website, including with GitHub Pages.
 
-## Project notes
+## Customize
 
-- The pages link to one another using relative paths.
-- The contact form is currently presentation-only: it has no configured server or form-submission endpoint.
-- The featured video on the home page uses a placeholder source and will not play until a video URL or file is provided.
-- The pages use older HTML presentation attributes (such as `<font>` and table-based layouts). A future improvement would be to move presentation into CSS and use semantic, responsive page structure.
+- Update colors, layout and animation styles in `styles.css`.
+- Replace images in the project root while keeping their filenames, or update the image paths in the HTML.
+- The contact form currently uses a `mailto:` link (`hello@example.com`). Replace it with your email address or connect a form backend before using it as a live contact channel.
+- Google Fonts are loaded from Google Fonts; system fallbacks will be used if the fonts are unavailable.
+
+## Technology
+
+HTML5 · CSS3 · Responsive design · CSS animations
